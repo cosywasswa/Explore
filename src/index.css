@@ -1,0 +1,102 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 5rem;
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.mission-link {
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+.rocket-item {
+  display: flex;
+  gap: 10px;
+  margin: 20px;
+}
+
+.rocket-right {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.rocket-img {
+  width: 300px;
+  height: 300px;
+}
+
+.reserve {
+  width: 150px;
+  height: 40px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.missions-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.missions-list p {
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+.rockets-list {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.rockets-list p {
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+/* .table-div {
+  margin-top: 20px;
+} */
+
+/* .head {
+  display: flex;
+  grid-gap: 20rem;
+} */
+
+
+
